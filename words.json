@@ -1,0 +1,47 @@
+[
+{
+  "model": "main.wort",
+  "pk": 1,
+  "fields": {
+    "ru_wort": "немецкий",
+    "d_wort": "deutsch",
+    "lektion": 1
+  }
+},
+{
+  "model": "main.wort",
+  "pk": 2,
+  "fields": {
+    "ru_wort": "€",
+    "d_wort": "ich",
+    "lektion": 1
+  }
+},
+{
+  "model": "main.wort",
+  "pk": 11,
+  "fields": {
+    "ru_wort": "мама",
+    "d_wort": "die mutter",
+    "lektion": 2
+  }
+},
+{
+  "model": "main.wort",
+  "pk": 12,
+  "fields": {
+    "ru_wort": "отец",
+    "d_wort": "der Vater",
+    "lektion": 2
+  }
+},
+{
+  "model": "main.wort",
+  "pk": 13,
+  "fields": {
+    "ru_wort": "ты",
+    "d_wort": "du",
+    "lektion": 1
+  }
+}
+]
