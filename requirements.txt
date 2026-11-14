@@ -14,7 +14,6 @@ packaging==26.2
 pillow==12.2.0
 pluggy==1.6.0
 psycopg2-binary==2.9.13
-pygame==2.6.1
 Pygments==2.20.0
 pyparsing==3.3.2
 pytest==9.0.3
