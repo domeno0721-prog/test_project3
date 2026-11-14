@@ -1,0 +1,19 @@
+<h2>Добавить</h2>
+<form action="/post" method="post">
+    {% csrf_token %}
+    <div class="mb-3" style="margin-top: 50px;">
+        <label for="ru_wort" class="form-label">Русское слово</label>
+        <input type="text" name="ru_wort" class="form-control" id="ru_wort">
+    </div>
+    <div class="mb-3">
+        <label for="d_wort" class="form-label">Немецкое слово</label>
+        <input type="text" name="d_wort" class="form-control" id="d_wort">
+    </div>
+    <div class="mb-3">
+        <label for="lektion" class="form-label">Лекцион</label>
+        <input type="text" name="lektion" class="form-control" id="lektion">
+    </div>
+    <div>
+        <button name="add_button" type="submit" class="btn btn-primary">Добавить</button>
+    </div>
+</form>

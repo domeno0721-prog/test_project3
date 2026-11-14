@@ -1,0 +1,46 @@
+{% extends 'main/basa.html' %}
+
+{% block content %}
+
+<h1 class="mb-4">Мои слова</h1>
+
+{% regroup worts by lektion as lektionen %}
+
+<div class="accordion" id="accordionLektionen">
+
+    {% for lektion in lektionen %}
+
+    <div class="accordion-item">
+
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#lektion{{ forloop.counter }}">
+
+                Лекция {{ lektion.grouper }}
+
+            </button>
+        </h2>
+
+        <div id="lektion{{ forloop.counter }}" class="accordion-collapse collapse" data-bs-parent="#accordionLektionen">
+
+            <div class="accordion-body">
+
+                {% for wort in lektion.list %}
+
+                <p>
+                    {{ wort.ru_wort }} — {{ wort.d_wort }}
+                </p>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+    </div>
+
+    {% endfor %}
+
+</div>
+
+{% endblock %}
