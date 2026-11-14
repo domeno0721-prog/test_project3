@@ -3,7 +3,7 @@
   "model": "main.wort",
   "pk": 1,
   "fields": {
-    "ru_wort": "немецкий",
+    "ru_wort": "РЅРµРјРµС†РєРёР№",
     "d_wort": "deutsch",
     "lektion": 1
   }
@@ -12,7 +12,7 @@
   "model": "main.wort",
   "pk": 2,
   "fields": {
-    "ru_wort": "я",
+    "ru_wort": "СЏ",
     "d_wort": "ich",
     "lektion": 1
   }
@@ -21,7 +21,7 @@
   "model": "main.wort",
   "pk": 11,
   "fields": {
-    "ru_wort": "мама",
+    "ru_wort": "РјР°РјР°",
     "d_wort": "die mutter",
     "lektion": 2
   }
@@ -30,7 +30,7 @@
   "model": "main.wort",
   "pk": 12,
   "fields": {
-    "ru_wort": "отец",
+    "ru_wort": "РѕС‚РµС†",
     "d_wort": "der Vater",
     "lektion": 2
   }
@@ -39,7 +39,7 @@
   "model": "main.wort",
   "pk": 13,
   "fields": {
-    "ru_wort": "ты",
+    "ru_wort": "С‚С‹",
     "d_wort": "du",
     "lektion": 1
   }
